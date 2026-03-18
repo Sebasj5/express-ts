@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-18",
+    "weather": "Sunny",
+    "visibility": "good",
+    "comments": "Día despejado y agradable"
+  },
+  {
+    "id": 2,
+    "date": "2026-03-19",
+    "weather": "Cloudy",
+    "visibility": "poor",
+    "comments": "Nubes densas durante la tarde"
+  },
+  {
+    "id": 3,
+    "date": "2026-03-20",
+    "weather": "Rainy",
+    "visibility": "poor",
+    "comments": "Lluvias constantes en la mañana"
+  }
+]

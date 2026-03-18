@@ -7,10 +7,10 @@ app.use('/api/diaries', diaryRouter)
 const PORT = 3000
 
 app.get('/ping', (_req: Request, res: Response) => {
-    console.log('someone pinged here')
-    res.send('pong')
+  console.log('someone pinged here')
+  res.send('pong')
 })
 
-app.listen(PORT, () =>{
-    console.log(`Server running on port ${PORT}`)
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
 })
