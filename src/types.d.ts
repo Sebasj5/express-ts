@@ -8,3 +8,7 @@ export interface DiaryEntry {
   visibility: Visibility
   comments: string
 }
+
+export type NonsensitiveDiaryEntry = Omit<DiaryEntry, 'comments'>
+
+export type NewDiaryEntry = Omit<DiaryEntry, 'id'>
